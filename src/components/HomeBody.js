@@ -16,11 +16,24 @@ class HomeBody extends Component {
         </section>
 
         <section className="quotes">
-          <div className="customer-blockquote">
-            I have three apples. -Isaac Newton.
-          </div>
+          <div className="quotes-container">
+            <div className="customer-blockquote">
+              <p>
+                I found an apple thanks to Lizardboard
+              </p>
+              <div className="cite">
+                Isaac Newton
+              </div>
+            </div>
 
-          <div className="customer-blockquote">
+            <div className="customer-blockquote">
+              <p>
+                Since we installed Lizardboard in our office, sales have gone up by 15 percent
+              </p>
+              <div className="cite">
+                John Adamos, CEO, Adam Apples
+              </div>
+            </div>
           </div>
         </section>
 

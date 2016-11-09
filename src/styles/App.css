@@ -150,6 +150,7 @@
 
 /*NavBody*/
 
+/*overlay section*/
 .overlay {
   padding-top: 9em;
   padding-bottom: 9em;
@@ -206,9 +207,26 @@
   background-color: #3d4351;
 }
 
-.quotes {
-  clear: both;
+/*quotes section*/
+
+.quotes-container {
+  position: relative;
+  transform: none;
+  left: 0;
+  max-width: 76em;
 }
+
+.customer-blockquote {
+  padding: 24px;
+  width: calc(50% - 50px);
+  display: inline-block;
+}
+
+.quotes-container > div::first-child {
+  border-right: 2px solid rgba(0,0,0,0.5);
+}
+
+
 /*clearfix*/
 
 .clearfix:after {
