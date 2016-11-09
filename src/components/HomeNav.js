@@ -11,20 +11,20 @@ class HomeNav extends Component {
 
           <li className="home-nav-right">
             <ul className="home-nav-menu">
-              <li><a href="#">PRODUCT</a></li>
+              <li><a href="#">product</a></li>
               <li><a href="#">PRICING</a></li>
               <li><a href="#">BLOG</a></li>
               <li className="nav-dropdown">MORE
                 <label className="more-label"> ^
                 </label>
                 <ul className="sub-nav">
-                  <li><a href="#">BLOG 1</a></li>
-                  <li><a href="#">BLOG 2</a></li>
-                  <li><a href="#">BLOG 3</a></li>
+                  <li><a href="#">EXAMPLE 1</a></li>
+                  <li><a href="#">EXAMPLE 2</a></li>
+                  <li><a href="#">EXAMPLE 3</a></li>
                 </ul>
               </li>
-              <li><a href="#">LOGIN</a></li>
-              <li><a href="#">BOOK A DEMO</a></li>
+              <li><a className="login-nav" href="#">LOGIN</a></li>
+              <li><a className="demo-button" href="#">BOOK A DEMO</a></li>
               <li>
                 TRIAL AREA
               </li>
