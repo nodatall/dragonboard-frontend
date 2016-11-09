@@ -20,6 +20,7 @@ class HomeNav extends Component {
               <a href="#">PRICING</a>
               <a href="#">BLOG</a>
               <div className="nav-dropdown">
+              <div className="toggle-button">
                 <NavMenuButton />
               </div>
               <a className="login-nav" href="#">LOGIN</a>
@@ -37,27 +38,27 @@ class HomeNav extends Component {
 let NavMenu = React.createClass({
   getDefaultProps() {
     return {
-      isOpen: false 
+      isOpen: false
     }
   },
-  
+
   render() {
     if(this.props.isOpen)
     {
     return <div className="home-nav-dropdown">
       <ul className="home-nav-dropdown-content">
         <li><a href="#">EXAMPLE 1</a></li>
-      </ul> 
+      </ul>
     </div>
     }
     return null
-  } 
+  }
 })
 
 let NavMenuButton = React.createClass({
   getInitialState() {
     return {
-      isOpen: false 
+      isOpen: false
     }
   },
 
