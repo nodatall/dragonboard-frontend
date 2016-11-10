@@ -26,7 +26,8 @@ class HomeNav extends Component {
               <li><a className="login-nav" href="#">LOGIN</a></li>
               <li><a className="demo-button" href="#">BOOK A DEMO</a></li>
               <li>
-                TRIAL AREA
+                <input className="trial-input" type="text" placeholder="Email address"/>
+                <a className="flat-button trial-button" href="#">Free Trial</a>
               </li>
             </ul>
           </li>
@@ -34,7 +35,6 @@ class HomeNav extends Component {
         </ul>
       </nav>
     );
-
   }
 }
 
