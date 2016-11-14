@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import '../styles/Quote.css';
 
 class Quotes extends Component {
   render () {

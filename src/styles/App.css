@@ -20,8 +20,6 @@
   font-size: large;
 }
 
-
-
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
@@ -31,8 +29,6 @@
   padding-left: 40px;
   padding-right: 40px;
   background-color: #3d4351;
-
-
 }
 
 .home-nav ul, .home-nav li {
@@ -85,14 +81,12 @@
   color: #fff;
   opacity: .8;
 }
-/*left side*/
 
 .home-nav-left {
   display:  inline-block;
   margin: 14px 0 14px 0;
   width: 210px;
   height: 36px;
-
 }
 
 .home-nav .logo {
@@ -108,9 +102,6 @@
 .home-nav .demo-button {
   color: #8dc63f;
 }
-
-
-/*right side*/
 
 .home-nav-right {
   display:  inline-block;
@@ -138,46 +129,6 @@
   margin-left: 0;
 }
 
-/*dropdown*/
-.sub-nav li {
-  padding: 18px;
-  width: calc(100%-18px);
-  border-bottom: 1px solid rgba(0,0,0,0.1);
-  text-align: center;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  line-height: 1;
-}
-
-.sub-nav a:hover {
-  color: #3d4351;
-}
-
-.home-nav-menu .flat-button {
-  color: #fff;
-  border-top-left-radius: 0px;
-  border-bottom-left-radius: 0px;
-  margin-right: 0px;
-}
-
-.home-nav-menu .trial-input {
-  border-color: rgba(61, 67, 87, 0.1);
-  background-color: #535b6e;
-  border-top-left-radius: 3px;
-  border-bottom-left-radius: 3px;
-  text-indent: 3px;
-  border: 0;
-  font-size: 14px;
-  width: 150px;
-  height: 14px;
-  padding: 12px;
-  padding-top: 11px;
-  padding-bottom: 13px;
-}
-
-/*NavBody*/
-
-/*overlay section*/
 .overlay {
   padding-top: 9em;
   padding-bottom: 9em;
@@ -210,10 +161,6 @@
   margin-bottom: 26px;
 }
 
-.overlay-message {
-
-}
-
 .flat-button {
   text-transform: uppercase;
   text-decoration: none;
@@ -234,97 +181,6 @@
   background-color: #3d4351;
 }
 
-/*quotes section*/
-
-.quotes-container {
-  position: relative;
-  transform: none;
-  left: 0;
-  max-width: 76em;
-  margin: 0 auto;
-}
-
-.customer-blockquote {
-  padding: 24px;
-  width: calc(50% - 55px);
-  display: inline-block;
-  border-left: 2px solid rgba(0,0,0,0.05);
-  font-family: 'Poppins', sans-serif;
-  font-size: 1.267em;
-  color: #3d4351;
-  line-height: 1.6em;
-
-}
-
-.quotes-container > .customer-blockquote:last-child{
-  border-right: 2px solid rgba(0,0,0,0.05);
-}
-
-.customer-testamonial::before {
-  content: "";
-  display: block;
-  position: relative;
-  width: 24px;
-  height: 24px;
-  top: 0;
-  margin-bottom: 0.5em;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-image: url(../../public/greenquotes.png)
-}
-
-.customer-testamonial {
-  font-style: italic;
-  margin-bottom: 32px;
-  margin-top: 0px;
-}
-
-.inner img {
-  height: 42px;
-  width: 42px;
-  margin-right: 16px;
-  position: relative;
-  bottom: -15px;
-  border-radius: 50%;
-}
-
-.inner cite {
-  text-transform: uppercase;
-  font-style: normal;
-  color: #82868f;
-}
-
-/*icons*/
-
-.icons {
-  min-height: 200px;
-  width: 100%;
-  background-color: rgba(0,0,0,0.05);
-}
-
-.icons-container {
-  padding: 3em 2em;
-  max-width: 75em;
-  margin: 0 auto;
-  position: relative;
-  margin-bottom: 1.25em;
-}
-
-.icons img {
-  max-width: 920px;
-  width: 100%;
-  margin: 0 auto;
-  display: block
-}
-
-.icons .section-heading {
-  text-align: center;
-  margin-bottom: 28px;
-  margin-top: 0px;
-}
-
-/*clearfix*/
-
 .clearfix:after {
   content: " ";
   visibility: hidden;
@@ -333,46 +189,7 @@
   clear: both;
 }
 
-/*Selection background*/
 ::selection {
     background-color: #8dc63f;
     color: #000;
-}
-
-/*Footer*/
-.home-footer-nav-container {
-  padding-left: 40px;
-  padding-right: 40px;
-  background-color: #3d4351;
-}
-
-.home-footer-nav a {
-  text-decoration: none;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  color: #9da0a7;
-}
-
-.home-footer-nav a:hover {
-  cursor: pointer;
-  color: #fff;
-  opacity: .8;
-}
-
-.home-footer-nav ul {
-  margin: 0;
-  list-style: none;
-}
-
-.home-footer-nav > li {
-  display: inline-block;
-  padding: 2em 0 2em 0;
-  margin-left: 1.2em;
-  font-size: 100%;
-  font-weight: 400;
-  font-size: 12px;
-}
-
-.home-footer-nav > li:first-child {
-  margin-left: 0;
 }

@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import '../styles/Icon.css';
+
 
 class Icons extends Component {
   render () {

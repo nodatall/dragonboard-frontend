@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from '../styles/logo.svg';
 import '../styles/App.css';
+import '../styles/dropdown.css';
 import HomeNav from './HomeNav';
 import HomeBody from './HomeBody';
 import HomeFooter from './HomeFooter';
