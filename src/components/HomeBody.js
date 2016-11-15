@@ -1,20 +1,18 @@
-import React, { Component } from 'react';
-import Overlay from './Overlay';
-import Quotes from './Quotes';
-import Icons from './Icons';
+import React, { Component } from 'react'
+import Overlay from './Overlay'
+import Quote from './Quote'
+import Icons from './Icons'
 
 class HomeBody extends Component {
   render () {
     return (
       <div className="home-main">
         <Overlay/>
-        <Quotes/>
+        <Quote/>
         <Icons/>
       </div>
-    );
-
+    )
   }
 }
 
-
-export default HomeBody;
+export default HomeBody

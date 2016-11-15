@@ -1,6 +1,5 @@
-import React, { Component } from 'react';
-import '../styles/Icon.css';
-
+import React, { Component } from 'react'
+import '../styles/icon.css'
 
 class Icons extends Component {
   render () {
@@ -11,8 +10,8 @@ class Icons extends Component {
             <img src="https://www.geckoboard.com/assets/png/home-logo-bar.png" alt="Dragonboard customers"/>
           </div>
         </section>
-    );
+    )
   }
 }
 
-export default Icons;
+export default Icons
