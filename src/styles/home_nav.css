@@ -89,7 +89,7 @@
     [class*="home-nav-right"] {
       visibility: hidden;
     }
-
+}
 .nav-dropdown {
   position: relative;
 }
