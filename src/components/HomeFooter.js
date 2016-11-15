@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
-import '../styles/HomeFooter.css';
-
+import '../styles/home_footer.css'
 
 class HomeFooter extends Component {
   render () {
@@ -19,6 +18,5 @@ class HomeFooter extends Component {
     )
   }
 }
-
 
 export default HomeFooter

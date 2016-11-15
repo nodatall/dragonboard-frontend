@@ -1,0 +1,19 @@
+.flat-button {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  border-radius: 3px;
+  padding: 1em 2em;
+  box-shadow: none;
+  display: inline-block;
+}
+
+.trial-button {
+  background-color: #8dc63f;
+  margin-right: 20px;
+}
+
+.demo-button {
+  background-color: #3d4351;
+}

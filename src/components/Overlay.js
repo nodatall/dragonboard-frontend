@@ -1,4 +1,5 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
+import '../styles/overlay.css'
 
 class Overlay extends Component {
   render () {
@@ -13,8 +14,8 @@ class Overlay extends Component {
             <a href="#" className="flat-button demo-button">Book a demo</a>
           </div>
         </section>
-    );
+    )
   }
 }
 
-export default Overlay;
+export default Overlay
