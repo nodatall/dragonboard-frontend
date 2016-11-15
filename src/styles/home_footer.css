@@ -4,6 +4,17 @@
   background-color: #3d4351;
 }
 
+@media only screen and (max-width: 475px) {
+    /* For mobile phones: */
+    [class*="home-footer-nav"] {
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        text-align: left;
+    }
+}
+
 .home-footer-nav a {
   text-decoration: none;
   letter-spacing: 0.1em;

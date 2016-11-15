@@ -6,6 +6,36 @@
   margin: 0 auto;
 }
 
+@media only screen and (max-width: 720px) {
+    /* For mobile phones: */
+    [class*="quotes-container"] {
+        width: 45em;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        position: relative;
+        margin-top: -100px;
+        margin-left: 165px;
+    }
+}
+
+@media only screen and (max-width: 475px) {
+    /* For mobile phones: */
+    [class*="quotes-container"] {
+        width: 45em;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        position: relative;
+        margin-top: -80px;
+        margin-left: -05px;
+    }
+}
+
 .customer-blockquote {
   padding: 24px;
   width: calc(50% - 55px);

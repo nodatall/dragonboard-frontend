@@ -68,6 +68,10 @@
   color: #fff;
 }
 
+.home-nav .logo img{
+  max-height: 35px;
+}
+
 .home-nav .login-nav {
   color: #fff;
 }
@@ -100,4 +104,11 @@
 
 .home-nav-menu > li:first-child {
   margin-left: 0;
+}
+
+@media only screen and (max-width: 720px) {
+    /* For mobile phones: */
+    [class*="home-nav-clearfix"] {
+      display: hidden;
+    }
 }
