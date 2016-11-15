@@ -108,7 +108,7 @@
 
 @media only screen and (max-width: 720px) {
     /* For mobile phones: */
-    [class*="home-nav-clearfix"] {
-      display: hidden;
+    [class*="home-nav-right"] {
+      visibility: hidden;
     }
 }

@@ -21,7 +21,7 @@
     }
 }
 
-@media only screen and (max-width: 475px) {
+@media only screen and (max-width: 485px) {
     /* For mobile phones: */
     [class*="quotes-container"] {
         width: 45em;
@@ -31,8 +31,8 @@
         text-align: center;
         justify-content: center;
         position: relative;
-        margin-top: -80px;
-        margin-left: -05px;
+        margin-top: -75px;
+        margin-left: -0px;
     }
 }
 
