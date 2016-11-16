@@ -1,3 +1,6 @@
+.home-nav {
+  z-index: 1;
+}
 .home-nav a {
   text-decoration: none;
   letter-spacing: 0.15em;
@@ -69,6 +72,9 @@
   max-height: 64px;
   overflow: hidden;
 }
+.home-nav-menu a {
+  margin-left: 10px;
+}
 
 .nav-dropdown span {
   display: block;
@@ -81,22 +87,30 @@
     }
 }
 .nav-dropdown {
-  display:flex;
-  flex-direction: column;
-  justify-content: flex-start;
+  position: relative;
+  display: inline-block;
 }
 
-.sub-nav-content a {
-  display: block;
-  background-color: white;
+.home-nav-dropdown {
+  position: absolute;
+  background-color: #fff;
+  min-width:100px;
+  z-index: 10;
+}
+
+.home-nav-dropdown ul {
+  z-index:11;
+}
+.home-nav-dropdown ul li{
+  z-index:12;
 }
 
 .login-nav {
-  color: #fff;
+  color: #fff !important;
 }
 
 .demo-button {
-  color: #8dc63f;
+  color: #8dc63f !important;
   margin-right: 10px;
 }
 

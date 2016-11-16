@@ -19,7 +19,7 @@ class HomeNav extends Component {
               <a href="#">product</a>
               <a href="#">PRICING</a>
               <a href="#">BLOG</a>
-              <div className="toggle-button">
+              <div className="nav-dropdown">
                 <NavMenuButton />
               </div>
               <a className="login-nav" href="#">LOGIN</a>
@@ -62,7 +62,7 @@ let NavMenuButton = React.createClass({
   },
 
   toggleMenu(event) {
-    event.stopPropagation()
+    // event.stopPropagation()
     this.setState({isOpen: !this.state.isOpen})
   },
 
