@@ -19,13 +19,8 @@ class HomeNav extends Component {
               <a href="#">product</a>
               <a href="#">PRICING</a>
               <a href="#">BLOG</a>
-              <div className="nav-dropdown">
-                <span>MORE ^</span>
-                <div className="sub-nav-content">
-                  <a href="#">EXAMPLE 1</a>
-                  <a href="#">EXAMPLE 2</a>
-                  <a href="#">EXAMPLE 3</a>
-                </div>
+              <div className="toggle-button">
+                <NavMenuButton />
               </div>
               <a className="login-nav" href="#">LOGIN</a>
               <a className="demo-button" href="#">BOOK A DEMO</a>
@@ -38,5 +33,57 @@ class HomeNav extends Component {
     )
   }
 }
+
+let NavMenu = React.createClass({
+  getDefaultProps() {
+    return {
+      isOpen: false 
+    }
+  },
+  
+  render() {
+    if(this.props.isOpen)
+    {
+    return <div className="home-nav-dropdown">
+      <ul className="home-nav-dropdown-content">
+        <li><a href="#">EXAMPLE 1</a></li>
+      </ul> 
+    </div>
+    }
+    return null
+  } 
+})
+
+let NavMenuButton = React.createClass({
+  getInitialState() {
+    return {
+      isOpen: false 
+    }
+  },
+
+  toggleMenu(event) {
+    event.stopPropagation()
+    this.setState({isOpen: !this.state.isOpen})
+  },
+
+  onClose() {
+    this.setState({isOpen: false})
+  },
+
+  componentDidMount() {
+    document.body.addEventListener('click', this.onClose)
+  },
+
+  componentWillUnmount() {
+    document.body.removeEventListener('click', this.onClose)
+  },
+
+  render() {
+    return <div>
+      <a onClick={this.toggleMenu} href="#">More</a>
+      <NavMenu isOpen={this.state.isOpen} />
+      </div>
+  }
+})
 
 export default HomeNav
