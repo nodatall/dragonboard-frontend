@@ -37,27 +37,32 @@ class HomeNav extends Component {
 let NavMenu = React.createClass({
   getDefaultProps() {
     return {
-      isOpen: false 
+      isOpen: false
     }
   },
-  
+
   render() {
     if(this.props.isOpen)
     {
-    return <div className="home-nav-dropdown">
-      <ul className="home-nav-dropdown-content">
-        <li><a href="#">EXAMPLE 1</a></li>
-      </ul> 
+    return <div className="home-nav-dropdown-container">
+      <div className="home-nav-triangle"></div>
+      <div className="home-nav-dropdown">
+        <ul className="home-nav-dropdown-content">
+          <li><a href="#">INTEGRATIONS</a></li>
+          <li><a href="#">DASHBOARD EXAMPLES</a></li>
+          <li><a href="#">KPI EXAMPLES</a></li>
+        </ul>
+      </div>
     </div>
     }
     return null
-  } 
+  }
 })
 
 let NavMenuButton = React.createClass({
   getInitialState() {
     return {
-      isOpen: false 
+      isOpen: false
     }
   },
 
@@ -80,7 +85,9 @@ let NavMenuButton = React.createClass({
 
   render() {
     return <div>
-      <a onClick={this.toggleMenu} href="#">More</a>
+      <a onClick={this.toggleMenu} href="#">More
+      <div className="more-triangle"></div>
+      </a>
       <NavMenu isOpen={this.state.isOpen} />
       </div>
   }

@@ -7,6 +7,7 @@
 .overlay-img {
   background-image: url(https://www.learnersguild.org/images/photo2.jpg);
   background-position: center;
+  background-size: cover;
   opacity: 0.4;
   background-repeat: no-repeat;
   width: 100%;
