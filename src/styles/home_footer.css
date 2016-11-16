@@ -28,9 +28,9 @@
   opacity: .8;
 }
 
-.home-footer-nav ul {
-  margin: 0;
+.home-footer-nav {
   list-style: none;
+  margin: 0;
 }
 
 .home-footer-nav > li {
