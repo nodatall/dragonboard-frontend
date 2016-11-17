@@ -2,6 +2,7 @@
   background-color: #24272A;
   color: #ccc;
   margin: 0;
+  padding-left: 13px;
   min-height: 48px;
   display: flex;
   flex-direction: row;
@@ -12,11 +13,15 @@
 
 .dashboard-menu {
   padding-left: 5px;
-  transition: background-color .45s cubic-bezier(.23,1,.32,1);
+  transition: color .45s cubic-bezier(.23,1,.32,1);
   font-family: Catamaran;
   font-weight: 300;
-<<<<<<< HEAD
+  font-size: 1.1em;
   flex-grow:5;
+}
+
+.dashboard-menu:hover {
+  color: #999;
 }
 
 .dashboard-right {
@@ -25,14 +30,6 @@
   align-items: center;
   justify-content: space-between;
   flex-grow:1;
-=======
-}
-
-.dashboard-right {
-  display:flex;
-  flex-direction:row;
-  align-items: center;
->>>>>>> f4f64cb620f1be808e78ac5049026c21d56ab0d9
 }
 
 .logo-white-square {
@@ -108,11 +105,7 @@
 }
 
 .account-icon {
-<<<<<<< HEAD
   background-color: #F0F2F3;
-=======
-  background-color: #fff;
->>>>>>> f4f64cb620f1be808e78ac5049026c21d56ab0d9
   height: 33px;
   width: 33px;
   min-width: 33px;
@@ -122,11 +115,7 @@
 
 .account-icon span {
   position:absolute;
-<<<<<<< HEAD
   font-size: 1.2em;
-=======
-  font-size: 1.3em;
->>>>>>> f4f64cb620f1be808e78ac5049026c21d56ab0d9
   top: 7px;
   left: 5px;
   color: #24272A;
