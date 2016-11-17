@@ -62,7 +62,18 @@
 
 .logo img {
   max-height: 35px;
-  overflow: hidden;
+}
+
+@media only screen and (max-width: 1200px) {
+  [class*="logo-type"] {
+    visibility: hidden;
+  }
+}
+
+@media only screen and (max-width: 1030px) {
+  [class*="logo-type"] {
+    visibility: visible;
+  }
 }
 
 .logo-type {
@@ -98,7 +109,7 @@
     }
 }
 
-@media only screen and (max-width: 1130px) {
+@media only screen and (max-width: 1120px) {
     [class*="home-nav-right"] {
       visibility: hidden;
     }
