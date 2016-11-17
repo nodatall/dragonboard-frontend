@@ -30,7 +30,8 @@ class HomeNav extends Component {
             </div>
           </div>
         </div>
-      </nav>
+      </div>
+    </nav>
     )
   }
 }
