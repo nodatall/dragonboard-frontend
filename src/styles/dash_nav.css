@@ -15,12 +15,15 @@
   transition: background-color .45s cubic-bezier(.23,1,.32,1);
   font-family: Catamaran;
   font-weight: 300;
+  flex-grow:5;
 }
 
 .dashboard-right {
-  display:flex;
-  flex-direction:row;
+  display: flex;
+  flex-direction: row;
   align-items: center;
+  justify-content: space-between;
+  flex-grow:1;
 }
 
 .logo-white-square {
@@ -96,7 +99,7 @@
 }
 
 .account-icon {
-  background-color: #fff;
+  background-color: #F0F2F3;
   height: 33px;
   width: 33px;
   min-width: 33px;
@@ -106,7 +109,7 @@
 
 .account-icon span {
   position:absolute;
-  font-size: 1.3em;
+  font-size: 1.2em;
   top: 7px;
   left: 5px;
   color: #24272A;

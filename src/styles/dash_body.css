@@ -18,17 +18,19 @@
 }
 
 .chat-icon {
-  max-height: 80px;
-  max-width: 80px;
-  min-height: 80px;
-  min-width: 80px;
-  background-color: #bbb;
+  max-height: 60px;
+  max-width: 60px;
+  min-height: 60px;
+  min-width: 60px;
+  background-color: #777;
   border-radius:100px;
-  position:relative;
+  position:absolute;
+  bottom: 125px;
+  right: 20px;
 }
 
 .chat-icon img {
-  max-height: 50px;
   position:absolute;
-  top:18px;
+  top:15px;
+  left: 15px;
 }
