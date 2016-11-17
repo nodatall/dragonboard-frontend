@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import '../styles/home_nav.css'
+import '../styles/dropdown.css'
+
 
 class HomeNav extends Component {
   render () {
@@ -30,7 +32,8 @@ class HomeNav extends Component {
             </div>
           </div>
         </div>
-      </nav>
+      </div>
+    </nav>
     )
   }
 }

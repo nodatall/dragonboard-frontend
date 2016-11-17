@@ -1,0 +1,28 @@
+.local-nav {
+  background-color: #333;
+  color: #ccc;
+  margin: 0;
+  min-height: 48px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px;
+}
+
+.local-nav-right {
+  padding-right: 50px;
+}
+
+.dashboard-menu {
+  padding-left: 5px;
+}
+
+.widget-nav-button {
+  background-color: #8dc63f;
+  margin-right: 20px;
+}
+
+.local-nav-right {
+  display: flex;
+  justify-content: space-between;
+}

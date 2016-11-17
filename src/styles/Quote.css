@@ -7,33 +7,31 @@
 }
 
 @media only screen and (max-width: 720px) {
-    /* For mobile phones: */
-    [class*="quotes-container"] {
-        width: 45em;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        text-align: center;
-        justify-content: center;
-        position: relative;
-        margin-top: -100px;
-        margin-left: 165px;
-    }
+  [class*="quotes-container"] {
+      width: 45em;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+      position: relative;
+      margin-top: -100px;
+      margin-left: 165px;
+  }
 }
 
 @media only screen and (max-width: 485px) {
-    /* For mobile phones: */
-    [class*="quotes-container"] {
-        width: 45em;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        text-align: center;
-        justify-content: center;
-        position: relative;
-        margin-top: -75px;
-        margin-left: -0px;
-    }
+  [class*="quotes-container"] {
+      width: 45em;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+      position: relative;
+      margin-top: -75px;
+      margin-left: -0px;
+  }
 }
 
 .customer-blockquote {

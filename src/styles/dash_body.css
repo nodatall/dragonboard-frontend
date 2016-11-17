@@ -1,0 +1,18 @@
+.dash-main {
+  background-color: #000;
+  color: #eee;
+  min-height: 100vh;
+  min-width: 100vh;
+  margin: 0px;
+  padding: 0;
+}
+
+.dash-main h1 {
+  padding: 10px;
+  margin-top: 0;
+}
+
+.build-dashboard {
+  position: absolute;
+   
+}
