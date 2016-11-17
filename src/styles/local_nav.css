@@ -1,0 +1,47 @@
+.local-nav {
+  background-color: #585D5F;
+  color: #ccc;
+  margin: 0;
+  min-height: 48px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 5px;
+}
+
+.local-nav-right {
+  padding-right: 50px;
+}
+
+.dashboard-menu {
+
+}
+
+.widget-nav-button {
+  color: #fff;
+  margin-right: 25px;
+  padding: 2px;
+}
+
+.local-nav-right {
+  display: flex;
+  flex-grow: 1;
+}
+
+.share {
+  margin-right: 20px;
+  padding: 2px;
+  color: #fff;
+}
+
+.settings {
+  margin-right: 20px;
+  padding: 2px;
+  color: #fff;
+}
+
+.full-screen {
+  margin-right: 20px;
+  padding: 2px;
+  color: #fff;
+}
