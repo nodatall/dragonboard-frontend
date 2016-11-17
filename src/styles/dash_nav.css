@@ -22,3 +22,25 @@
   background-color: #8dc63f;
   margin-right: 20px;
 }
+
+.logo-white-square {
+  background-color: #fff;
+  height: 33px;
+  width: 33px;
+  min-width: 33px;
+  display: flex;
+  align-items: center;
+}
+
+.logo-white-square:hover {
+  background-color: #ccc;
+}
+
+.logo-white-square div {
+  font-size: 2em;
+  color: #24272A;
+  font-weight: 200;
+  position: absolute;
+  top: 15px;
+  left: 637px;
+}
