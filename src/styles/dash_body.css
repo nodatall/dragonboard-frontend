@@ -5,6 +5,7 @@
   min-width: 100vh;
   margin: 0px;
   padding: 0;
+  position: relative;
 }
 
 .dash-main h1 {
@@ -14,5 +15,20 @@
 
 .build-dashboard {
   position: absolute;
-   
+}
+
+.chat-icon {
+  max-height: 80px;
+  max-width: 80px;
+  min-height: 80px;
+  min-width: 80px;
+  background-color: #bbb;
+  border-radius:100px;
+  position:relative;
+}
+
+.chat-icon img {
+  max-height: 50px;
+  position:absolute;
+  top:18px;
 }
