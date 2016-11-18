@@ -7,22 +7,21 @@
 }
 
 @media only screen and (max-width: 720px) {
-    /* For mobile phones: */
-    [class*="quotes-container"] {
-        width: 45em;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        text-align: center;
-        justify-content: center;
-        position: relative;
-        margin-top: 130px;
-        margin-left: 165px;
-    }
+  .quotes-container {
+      width: 45em;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+      position: relative;
+      margin-top: 130px;
+      margin-left: 165px;
+  }
 }
 
 @media only screen and (max-width: 485px) {
-  [class*="quotes-container"] {
+  .quotes-container {
       width: 45em;
       display: flex;
       justify-content: center;

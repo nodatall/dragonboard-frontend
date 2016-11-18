@@ -1,4 +1,3 @@
-
 .home-nav {
   z-index: 1;
   overflow: hidden;
@@ -65,13 +64,13 @@
 }
 
 @media only screen and (max-width: 1200px) {
-  [class*="logo-type"] {
+  .logo-type {
     visibility: hidden;
   }
 }
 
 @media only screen and (max-width: 1030px) {
-  [class*="logo-type"] {
+  .logo-type {
     visibility: visible;
   }
 }
@@ -104,16 +103,17 @@
 }
 
 @media only screen and (max-width: 720px) {
-    [class*="home-nav-right"] {
-      visibility: hidden;
-    }
+  .home-nav-right {
+    visibility: hidden;
+  }
 }
 
 @media only screen and (max-width: 1120px) {
-    [class*="home-nav-right"] {
-      visibility: hidden;
-    }
+  .home-nav-right {
+    visibility: hidden;
+  }
 }
+
 .nav-dropdown {
   display: inline-block;
 }

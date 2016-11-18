@@ -9,31 +9,6 @@
   display: inline-block;
 }
 
-@media only screen and (max-width: 720px) {
-    /* For mobile phones: */
-    [class*="flat-button"] {
-        width: 300px;
-        margin: auto;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        border-radius: 3px;
-        position: relative;
-    }
-}
-
-@media only screen and (max-width: 485px) {
-    /* For mobile phones: */
-    [class*="flat-button"] {
-        width: 200px;
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        border-radius: 3px;
-        max-width: 80em;
-    }
-}
-
 .trial-button {
   background-color: #8dc63f;
   margin-right: 20px;
@@ -45,8 +20,25 @@
 }
 
 @media only screen and (max-width: 720px) {
-  /* For mobile phones: */
-  [class*="trial-button"] {
+  .flat-button {
+    width: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 3px;
+    position: relative;
+  }
+  .trial-button {
+    width: 300px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 3px;
+    position: relative;
+  }
+  .demo-button {
     width: 300px;
     margin: auto;
     display: flex;
@@ -57,21 +49,16 @@
   }
 }
 
-@media only screen and (max-width: 720px) {
-  /* For mobile phones: */
-  [class*="demo-button"] {
-    width: 300px;
-    margin: auto;
+@media only screen and (max-width: 485px) {
+  .flat-button {
+    width: 200px;
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    text-align: center;
     border-radius: 3px;
-    position: relative;
+    max-width: 80em;
   }
-}
-@media only screen and (max-width: 485px) {
-  /* For mobile phones: */
-  [class*="trial-button"] {
+  .trial-button {
     width: 200px;
     margin: auto;
     display: flex;
@@ -80,11 +67,8 @@
     border-radius: 3px;
     position: relative;
   }
-}
 
-@media only screen and (max-width: 485px) {
-  /* For mobile phones: */
-  [class*="demo-button"] {
+  .demo-button {
     width: 200px;
     margin: auto;
     display: flex;

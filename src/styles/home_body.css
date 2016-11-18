@@ -1,17 +1,15 @@
 @media only screen and (max-width: 720px) {
-    /* For mobile phones: */
-    [class*="home-main"] {
-        width: 100%;
-        margin: auto;
-    }
+  .home-main {
+    width: 100%;
+    margin: auto;
+  }
 }
 
 @media only screen and (max-width: 1800px) {
-    /* For mobile phones: */
-    [class*="home-main"] {
-        width: 100%;
-        margin: auto;
-    }
+  .home-main {
+    width: 100%;
+    margin: auto;
+  }
 }
 
 .home-page {
