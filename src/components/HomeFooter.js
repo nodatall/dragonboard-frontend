@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import '../styles/home_footer.css'
 
 class HomeFooter extends Component {
-  render () {
+  render() {
     return (
       <div className="home-footer-nav-container">
         <ul className="home-footer-nav">

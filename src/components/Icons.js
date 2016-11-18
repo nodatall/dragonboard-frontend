@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import '../styles/icon.css'
 
 class Icons extends Component {
-  render () {
+  render() {
       return (
         <section className="icons">
           <div className="icons-container">

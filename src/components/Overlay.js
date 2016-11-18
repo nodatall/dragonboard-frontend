@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import '../styles/overlay.css'
 
 class Overlay extends Component {
-  render () {
+  render() {
     return (
         <section className="overlay">
           <div className="overlay-img"></div>

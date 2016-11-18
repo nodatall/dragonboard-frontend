@@ -3,14 +3,11 @@ import React, { Component } from 'react'
 import '../styles/home_nav.css'
 
 class NavMenu extends Component {
-  getDefaultProps() {
-    return {
-      isOpen: false
-    }
+  getDefaultProps() { return { isOpen: false }
   }
 
   render() {
-    if(this.props.isOpen) {
+    if( this.props.isOpen ) {
     return <div className="home-nav-dropdown-container">
       <div className="home-nav-triangle"></div>
       <div className="home-nav-dropdown">
@@ -21,8 +18,8 @@ class NavMenu extends Component {
         </ul>
       </div>
     </div>
-  }
-    return null
+    }
+  return null
   }
 }
 

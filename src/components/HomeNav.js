@@ -3,7 +3,7 @@ import NavMenu from './NavMenu'
 import '../styles/home_nav.css'
 
 class HomeNav extends Component {
-  render () {
+  render() {
     return (
       <nav className="home-nav clearfix">
         <div className="nav-container">

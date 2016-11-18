@@ -29,6 +29,7 @@
     border-radius: 3px;
     position: relative;
   }
+
   .trial-button {
     width: 300px;
     margin: auto;
@@ -38,6 +39,7 @@
     border-radius: 3px;
     position: relative;
   }
+
   .demo-button {
     width: 300px;
     margin: auto;
@@ -58,6 +60,7 @@
     border-radius: 3px;
     max-width: 80em;
   }
+  
   .trial-button {
     width: 200px;
     margin: auto;
