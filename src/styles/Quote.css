@@ -59,7 +59,7 @@
   margin-bottom: 0.5em;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../../public/greenquotes.png)
+  background-image: url('/images/greenquotes.png');
 }
 
 .customer-testimonial {
