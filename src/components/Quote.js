@@ -13,7 +13,7 @@ class Quote extends Component {
             <cite>{this.props.name}</cite>
           </div>
         </div>
-    );
+    )
   }
 }
 

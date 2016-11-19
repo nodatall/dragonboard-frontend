@@ -36,9 +36,9 @@
 
 .customer-blockquote {
   padding: 24px;
-  width: calc(50% - 55px);
+  width: calc( 50% - 55px );
   display: inline-block;
-  border-left: 2px solid rgba(0,0,0,0.05);
+  border-left: 2px solid rgba( 0,0,0,0.05 );
   font-family: 'Poppins', sans-serif;
   font-size: 1.267em;
   color: #3d4351;
@@ -46,7 +46,7 @@
 }
 
 .quotes-container > .customer-blockquote:last-child{
-  border-right: 2px solid rgba(0,0,0,0.05);
+  border-right: 2px solid rgba( 0,0,0,0.05 );
 }
 
 .customer-testimonial::before {
@@ -59,7 +59,7 @@
   margin-bottom: 0.5em;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url('/images/greenquotes.png');
+  background-image: url( '/images/greenquotes.png' );
 }
 
 .customer-testimonial {

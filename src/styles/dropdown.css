@@ -1,7 +1,7 @@
 .sub-nav li {
   padding: 18px;
-  width: calc(100%-18px);
-  border-bottom: 1px solid rgba(0,0,0,0.1);
+  width: calc( 100%-18px );
+  border-bottom: 1px solid rgba( 0,0,0,0.1 );
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 0.1em;
@@ -20,7 +20,7 @@
 }
 
 .home-nav-menu .trial-input {
-  border-color: rgba(61, 67, 87, 0.1);
+  border-color: rgba( 61, 67, 87, 0.1 );
   background-color: #535b6e;
   transition: background-color 0.3s ease;
   border-top-left-radius: 3px;

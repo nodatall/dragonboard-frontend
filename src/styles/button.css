@@ -54,17 +54,14 @@
 @media only screen and (max-width: 485px) {
   .flat-button {
     width: 200px;
-    display: flex;
     justify-content: center;
     text-align: center;
     border-radius: 3px;
     max-width: 80em;
   }
-  
+
   .trial-button {
     width: 200px;
-    margin: auto;
-    display: flex;
     justify-content: center;
     flex-direction: column;
     border-radius: 3px;
@@ -73,8 +70,6 @@
 
   .demo-button {
     width: 200px;
-    margin: auto;
-    display: flex;
     justify-content: center;
     flex-direction: column;
     border-radius: 3px;
