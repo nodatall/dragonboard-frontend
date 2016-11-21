@@ -62,10 +62,10 @@ let NavMenuButton = React.createClass({
 
   render() {
     return <div>
-      <a onClick={this.toggleMenu} href="#">More
-      <div className="more-triangle"></div>
-      </a>
-      <NavMenu isOpen={this.state.isOpen} />
+        <a onClick={this.toggleMenu} href="#">More
+          <div className="more-triangle"></div>
+        </a>
+        <NavMenu isOpen={this.state.isOpen} />
       </div>
   }
 })
