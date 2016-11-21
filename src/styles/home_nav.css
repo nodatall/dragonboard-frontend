@@ -115,8 +115,6 @@
 
 .nav-dropdown {
   display: inline-block;
-  /*color: #fff;*/
-  /*margin-right: 10px;*/
 }
 
 .nav-dropdown div a {
@@ -178,6 +176,7 @@
 .home-nav-dropdown ul {
   z-index: 11;
 }
+
 .home-nav-dropdown ul li {
   list-style: none;
   z-index: 12;
