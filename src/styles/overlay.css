@@ -1,7 +1,7 @@
 .overlay-container {
   display: flex;
   align-content: center;
-  height: 610px;
+  height: auto;
   padding-top: 9em;
   padding-bottom: 9em;
   overflow: hidden;
@@ -10,8 +10,8 @@
 .overlay-img {
   position: absolute;
   opacity: 0.4;
-  height: 100%;
-  width: 100%;
+  max-height: auto;
+  min-width: 100%;
   top: 64px;
   left: 0;
   margin: auto;
