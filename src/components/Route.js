@@ -7,7 +7,7 @@ ReactDOM.render(
     <Route path="/" component={App}>
 
     <IndexRoute component={Dashboard}></IndexRoute>
-    <Route path="DashBody" component={DashBody}></Route>
+    <Route path="DashboardBody" component={DashboardBody}></Route>
     <Route path="DashWidgets" component={DashWidgets}></Route>
     </Route>
   </Router>

@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import DashNav from './DashNav'
 import LocalNav from './LocalNav'
-import DashBody from './DashBody'
+import DashboardBody from './DashboardBody'
 
 class Dashboard extends Component {
   render() {
@@ -9,7 +9,7 @@ class Dashboard extends Component {
       <div className="dashboard-home">
         <DashNav/>
         <LocalNav/>
-        <DashBody/>
+        <DashboardBody/>
       </div>
     )
   }

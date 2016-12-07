@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import "../styles/dash_widget.css"
+import "../styles/dash-welcome.css"
 
-class DashWidget extends Component {
+class DashWelcome extends Component {
   render() {
     return (
       <div>
@@ -14,4 +14,4 @@ class DashWidget extends Component {
   }
 }
 
-export default DashWidget
+export default DashWelcome
