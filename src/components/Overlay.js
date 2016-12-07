@@ -5,17 +5,15 @@ class Overlay extends Component {
   render() {
     return (
         <section className="overlay-container">
+          <img className="overlay-img" src="/images/backdrop2.jpg" role="presentation" />
+          <div className="overlay-header">
+            <h1 className="overlay-heading">Live Monitor Dashboard Software
+              <div className="overlay-message">Focus your teams and improve your KPIs</div>
+            </h1>
+            <a href="#" className="flat-button trial-button">Start your free trial</a>
+            <a href="#" className="flat-button demo-button">Book a demo</a>
+          </div>
         </section>
-
-
-          /*<div className="overlay-header">
-              <h1 className="overlay-heading">Live Monitor Dashboard Software
-                <div className="overlay-message">Focus your teams and improve your KPIs</div>
-              </h1>
-              <a href="#" className="flat-button trial-button">Start your free trial</a>
-              <a href="#" className="flat-button demo-button">Book a demo</a>
-            </div>*/
-
     )
   }
 }

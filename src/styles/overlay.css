@@ -1,9 +1,6 @@
 .overlay-container {
   display: flex;
   align-content: center;
-  background-image: url(/images/backdrop.jpeg);
-
-
   height: 610px;
   padding-top: 9em;
   padding-bottom: 9em;
@@ -14,6 +11,7 @@
   position: absolute;
   opacity: 0.4;
   height: 100%;
+  width: 100%;
   top: 64px;
   left: 0;
   margin: auto;
