@@ -3,30 +3,30 @@ import NavMenu from './NavMenu'
 import '../styles/home_nav.css'
 
 class HomeNav extends Component {
-  render() {
+  render () {
     return (
-      <nav className="home-nav clearfix">
-        <div className="nav-container">
-          <div className="home-nav-left">
-            <a className="logo" href="#">
-              <div className="logo-green-square">
+      <nav className='home-nav clearfix'>
+        <div className='nav-container'>
+          <div className='home-nav-left'>
+            <a className='logo' href='#'>
+              <div className='logo-green-square'>
                 <div>D</div>
               </div>
-              <img src="/images/logo.svg" role="presentation"/>
+              <img src='/images/logo.svg' role='presentation' />
             </a>
           </div>
-          <div className="home-nav-right">
-            <div className="home-nav-menu">
-              <a className="home-nav-grey" href="#">product</a>
-              <a className="home-nav-grey" href="#">PRICING</a>
-              <a className="home-nav-grey" href="#">BLOG</a>
-              <div className="nav-dropdown">
+          <div className='home-nav-right'>
+            <div className='home-nav-menu'>
+              <a className='home-nav-grey' href='#'>product</a>
+              <a className='home-nav-grey' href='#'>PRICING</a>
+              <a className='home-nav-grey' href='#'>BLOG</a>
+              <div className='nav-dropdown'>
                 <NavMenuButton />
               </div>
-              <a className="login-nav" href="#">LOGIN</a>
-              <a className="demo-button" href="#">BOOK A DEMO</a>
-              <input className="trial-input" type="text" placeholder="Email address"/>
-              <a className="nav-trial-button" href="#">Free Trial</a>
+              <a className='login-nav' href='#'>LOGIN</a>
+              <a className='demo-button' href='#'>BOOK A DEMO</a>
+              <input className='trial-input' type='text' placeholder='Email address' />
+              <a className='nav-trial-button' href='#'>Free Trial</a>
             </div>
           </div>
         </div>
@@ -35,38 +35,37 @@ class HomeNav extends Component {
   }
 }
 
-
 let NavMenuButton = React.createClass({
-  getInitialState() {
+  getInitialState () {
     return {
       isOpen: false
     }
   },
 
-  toggleMenu(event) {
+  toggleMenu (event) {
     // event.stopPropagation()
     this.setState({isOpen: !this.state.isOpen})
   },
 
-  onClose() {
+  onClose () {
     this.setState({isOpen: false})
   },
 
-  componentDidMount() {
+  componentDidMount () {
     document.body.addEventListener('click', this.onClose)
   },
 
-  componentWillUnmount() {
+  componentWillUnmount () {
     document.body.removeEventListener('click', this.onClose)
   },
 
-  render() {
+  render () {
     return <div>
-        <a onClick={this.toggleMenu} href="#">More
-          <div className="more-triangle"></div>
-        </a>
-        <NavMenu isOpen={this.state.isOpen} />
-      </div>
+      <a onClick={this.toggleMenu} href='#'>More
+          <div className='more-triangle' />
+      </a>
+      <NavMenu isOpen={this.state.isOpen} />
+    </div>
   }
 })
 

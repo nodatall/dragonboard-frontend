@@ -8,12 +8,12 @@ import HomeBody from './HomeBody'
 import HomeFooter from './HomeFooter'
 
 class App extends Component {
-  render() {
+  render () {
     return (
-      <div className="home-page">
-        <HomeNav/>
-        <HomeBody/>
-        <HomeFooter/>
+      <div className='home-page'>
+        <HomeNav />
+        <HomeBody />
+        <HomeFooter />
       </div>
     )
   }
