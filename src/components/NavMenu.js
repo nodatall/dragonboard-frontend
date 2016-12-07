@@ -3,8 +3,8 @@ import React, { Component } from 'react'
 import '../styles/home_nav.css'
 
 class NavMenu extends Component {
-  getDefaultProps() {
-    return { isOpen: false }
+  static defaultProps = {
+    isOpen: false
   }
 
   render() {
