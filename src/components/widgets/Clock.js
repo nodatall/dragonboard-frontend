@@ -1,9 +1,10 @@
 import React, { Component } from 'react'
-import "../../styles/widget.css"
+import "../../styles/widget/widget.css"
+import "../../styles/widget/clock.css"
 import moment from 'moment'
+import Header from './Header'
 
 class Clock extends Component {
-
   constructor( props ) {
     super( props )
     this.state = {
@@ -17,16 +18,13 @@ class Clock extends Component {
   }
 
   setDateAndTime() {
-    let currentTime = moment().format( 'h:mm' )
-    let currentAmPm = moment().format( 'A' )
-    let currentDayOfWeek = moment().format( 'dddd' )
-    let currentDate = moment().format( 'D MMM YYYY' )
+    const time = moment()
 
     this.setState({
-      time: currentTime,
-      amPm: currentAmPm,
-      dayOfWeek: currentDayOfWeek,
-      date: currentDate
+      time: time.format( 'h:mm' ),
+      amPm: time.format( 'A' ),
+      dayOfWeek: time.format( 'dddd') ,
+      date: time.format( 'D MMM YYYY' )
     })
   }
 
@@ -41,19 +39,13 @@ class Clock extends Component {
   }
 
   render() {
-    const { specification } = this.props
+    const { title, x, y, format } = this.props
+    const positionStyle = { top: x, left: y }
 
-    const positionStyle = { top: specification.position.x, left: specification.position.y }
     return (
       <article>
         <div className="widget widget-width-1 widget-height-1" style={ positionStyle }>
-          <header>
-            <span>
-              <label className="header-text">
-                { specification.title }
-              </label>
-            </span>
-          </header>
+          <Header title={title}/>
           <div className="time-container">
             <div className="clockface">
               { this.state.time } <sub>{ this.state.amPm }</sub>

@@ -3,7 +3,6 @@ import NavMenu from './NavMenu'
 import '../styles/home_nav.css'
 import '../styles/dropdown.css'
 
-
 class HomeNav extends Component {
   render () {
     return (
