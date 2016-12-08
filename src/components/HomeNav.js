@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import NavMenu from './NavMenu'
 import '../styles/home_nav.css'
+import '../styles/dropdown.css'
 
 class HomeNav extends Component {
   render () {
@@ -15,6 +16,7 @@ class HomeNav extends Component {
               <img src='/images/logo.svg' role='presentation' />
             </a>
           </div>
+
           <div className='home-nav-right'>
             <div className='home-nav-menu'>
               <a className='home-nav-grey' href='#'>product</a>
@@ -30,10 +32,31 @@ class HomeNav extends Component {
             </div>
           </div>
         </div>
-      </nav>
+      </div>
+    </nav>
     )
   }
 }
+
+let NavMenu = React.createClass({
+  getDefaultProps() {
+    return {
+      isOpen: false
+    }
+  },
+
+  render() {
+    if(this.props.isOpen)
+    {
+    return <div className="home-nav-dropdown">
+      <ul className="home-nav-dropdown-content">
+        <li><a href="#">EXAMPLE 1</a></li>
+      </ul>
+    </div>
+    }
+    return null
+  }
+})
 
 let NavMenuButton = React.createClass({
   getInitialState () {
