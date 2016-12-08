@@ -152,10 +152,11 @@
   border-top: 5px solid ;
   max-width: 0px;
   max-height: 0px;
-  position: absolute;
-  right: 520px;
-  top: 29px;
+  position: relative;
+  display: inline;
+  top: 2px;
   z-index: 15;
+  margin-left: 3px;
 }
 
 .home-nav-triangle {
