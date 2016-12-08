@@ -1,9 +1,7 @@
-@media only screen and (max-width: 720px) and (max-width: 1800px) {
-  .home-main {
-    height: 1200px;
-    width: 100%;
-    margin: auto;
-  }
+.home-main {
+  height: 1200px;
+  width: 100%;
+  margin: auto;
 }
 
 .home-page {

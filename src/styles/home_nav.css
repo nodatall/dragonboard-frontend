@@ -23,16 +23,8 @@
   color: #9da0a7;
 }
 
-.home-nav-menu .home-nav-grey:hover {
+.home-nav-menu .home-nav-grey:hover, .login-nav {
   color: #fff;
-}
-
-.home-nav-menu .login-nav {
-  color: #fff;
-}
-
-.home-nav a:hover {
-  cursor: pointer;
 }
 
 .nav-container {
@@ -54,9 +46,6 @@
   margin: 14px 0 14px 0;
   width: 210px;
   height: 36px;
-}
-
-.logo {
   color: #fff;
 }
 
@@ -87,12 +76,6 @@
   color: #ccc;
 }
 
-@media only screen and (max-width: 1200px) and (max-width: 1030px) {
-  .logo-type {
-    visibility: hidden;
-  }
-}
-
 .home-nav-right{
   flex-grow: 1;
 }
@@ -107,7 +90,7 @@
   overflow: hidden;
 }
 
-@media only screen and (max-width: 720px) and (max-width: 1120px) {
+@media only screen and (max-width: 720px) {
   .home-nav-right {
     visibility: hidden;
   }
@@ -155,19 +138,6 @@
   position: absolute;
   right: 520px;
   top: 29px;
-  z-index: 15;
-}
-
-.home-nav-triangle {
-  border-bottom: 10px solid white;
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-top: 10px solid transparent;
-  max-width: 0px;
-  max-height: 0px;
-  position: absolute;
-  right: 545px;
-  top: 38px;
   z-index: 15;
 }
 
