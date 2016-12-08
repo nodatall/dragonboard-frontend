@@ -1,5 +1,6 @@
 .overlay-container {
   z-index: 0;
+  height: 300px;
   position: relative;
   text-align: center;
   background: #3d4351;
@@ -11,13 +12,26 @@
 .overlay-img {
   z-index: 10;
   position: absolute;
-  opacity: 0.7;
   height: 100%;
   width: 100%;
   top: 0;
   left: 0;
-  background-image: url(/images/backdrop3.jpg);
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; 
+}
+
+.overlay-img:after {
+  content: '';
+  z-index: 10;
+  position: absolute;
+  opacity: 0.4;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-image: url(/images/backdrop3.jpg);
   background-position: center;
   background-repeat: no-repeat; 
 }
@@ -34,7 +48,7 @@
 }
 
 .overlay-heading {
-  margin-top: 0px;
+  margin-top: 200px;
   margin-bottom: 10px;
 }
 
@@ -52,7 +66,7 @@
 @media only screen and (max-width: 720px) {
   .overlay-header {
     width: 600px;
-    margin: auto;
+    margin-top: 100px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -84,9 +98,13 @@
     max-height: 360px;
   }
 
+  .overlay-container {
+    height: 250px;
+  }
+
   .overlay-header {
     width: 300px;
-    margin: auto;
+    margin-top: 50px;
     display: flex;
     justify-content: center;
     flex-direction: column;
