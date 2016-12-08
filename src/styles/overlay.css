@@ -18,7 +18,7 @@
   left: 0;
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat; 
+  background-repeat: no-repeat;
 }
 
 .overlay-img:after {
@@ -33,9 +33,10 @@
   background-size: cover;
   background-image: url(/images/backdrop3.jpg);
   background-position: center;
-  background-repeat: no-repeat; 
+  background-repeat: no-repeat;
 }
 
+<<<<<<< HEAD
 .overlay-header {
   margin: 0 auto 20px auto;
   max-width: 90%;
