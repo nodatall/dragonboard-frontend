@@ -5,8 +5,11 @@ import '../styles/button.css'
 class App extends Component {
   render () {
     return (
-      <div className="home-page">
+      <div className='home-page-wrapper'>
         <Dashboard/>
+        <HomeNav />
+        <HomeBody />
+        <HomeFooter />
       </div>
     )
   }
