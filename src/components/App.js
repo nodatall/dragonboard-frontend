@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import Dashboard from './Dashboard'
+import '../styles/home_body.css'
+import '../styles/home_nav.css'
 import '../styles/button.css'
 
 class App extends Component {
