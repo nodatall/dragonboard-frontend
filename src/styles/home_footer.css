@@ -4,7 +4,7 @@
   background-color: #3d4351;
 }
 
-@media only screen and (max-width: 475px) {
+@media only screen and (max-width: 590px) {
   .home-footer-nav {
     width: 300px;
     display: flex;
