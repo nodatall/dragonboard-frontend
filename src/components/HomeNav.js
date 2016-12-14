@@ -1,6 +1,9 @@
 import React, { Component } from 'react'
-import NavMenu from './NavMenu'
+import HomeNavDropdownMenu from './HomeNavDropdownMenu'
+import HomeNavHamburger from './HomeNavHamburger'
+
 import '../styles/home_nav.css'
+import '../styles/home_nav_dropdown_menu.css'
 
 class HomeNav extends Component {
   render () {
@@ -22,7 +25,7 @@ class HomeNav extends Component {
               <a className='home-nav-grey' href='#'>PRICING</a>
               <a className='home-nav-grey' href='#'>BLOG</a>
               <div className='nav-dropdown'>
-                <NavMenuButton />
+                <HomeNavMenuDropdownButton />
               </div>
               <a className='login-nav' href='#'>LOGIN</a>
               <a className='demo-button' href='#'>BOOK A DEMO</a>
@@ -30,13 +33,14 @@ class HomeNav extends Component {
               <a className='nav-trial-button' href='#'>Free Trial</a>
             </div>
           </div>
+          <HomeNavHamburger />
         </div>
-    </nav>
+      </nav>
     )
   }
 }
 
-let NavMenuButton = React.createClass({
+const HomeNavMenuDropdownButton = React.createClass({
   getInitialState () {
     return {
       isOpen: false
@@ -65,7 +69,7 @@ let NavMenuButton = React.createClass({
       <a onClick={this.toggleMenu} href='#'>More
           <div className='more-triangle' />
       </a>
-      <NavMenu isOpen={this.state.isOpen} />
+      <HomeNavDropdownMenu isOpen={this.state.isOpen} />
     </div>
   }
 })
