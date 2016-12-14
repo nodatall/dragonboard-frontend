@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import Menu from './Menu'
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
 
-class AccountMenuDropdown extends React.Component {
+class AccountMenuDropdown extends Component {
   constructor(props) {
     super(props)
     this.state = {
@@ -11,28 +11,22 @@ class AccountMenuDropdown extends React.Component {
   }
 
   toggleMenu() {
-    let menuState = !this.state.menuActive;
     this.setState({
-      menuActive: menuState
+      menuActive: ! this.state.menuActive
     });
   }
 
   render() {
-    let menu
-    if(this.state.menuActive) {
-      menu = <Menu />
-    } else {
-      menu = ""
-    }
     return (
-
+    <div className="account-menu-dropdown">
       <div id="menu">
         <div className="account-icon" onClick={ this.toggleMenu.bind( this ) }>
           <span>A</span>
         </div>
-      <ReactCSSTransitionGroup transitionName="menu" transitionEnterTimeout={500} transitionLeaveTimeout={100}>
-        {menu}
-      </ReactCSSTransitionGroup>
+        <ReactCSSTransitionGroup transitionName="menu" transitionEnterTimeout={500} transitionLeaveTimeout={100}>
+          <Menu active={this.state.menuActive} />
+        </ReactCSSTransitionGroup>
+      </div>
     </div>
     )
   }
