@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 
-import '../styles/home_nav_dropdown_menu.css'
+import '../styles/home_nav.css'
 
-class HomeNavDropdownMenu extends Component {
+class NavMenu extends Component {
   static defaultProps () {
     return { isOpen: false }
   }
@@ -23,4 +23,4 @@ class HomeNavDropdownMenu extends Component {
   }
 }
 
-export default HomeNavDropdownMenu
+export default NavMenu

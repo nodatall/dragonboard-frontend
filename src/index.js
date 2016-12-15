@@ -7,6 +7,7 @@ import Dashboard from './components/Dashboard'
 
 import './styles/index.css'
 
+
 ReactDOM.render((
   <Router history={browserHistory}>
     <Route path='/' component={App} />
