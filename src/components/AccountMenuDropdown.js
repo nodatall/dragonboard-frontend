@@ -4,17 +4,17 @@ import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
 
 export default class AccountMenuDropdown extends Component {
   constructor( props ) {
-
     super( props )
+
     this.state = {
-      menuActive: false
-    };
+      active: false
+    }
   }
 
   toggleMenu() {
     this.setState({
-      menuActive: ! this.state.menuActive
-    });
+      active: ! this.state.active
+    })
   }
 
   render() {
@@ -25,7 +25,7 @@ export default class AccountMenuDropdown extends Component {
           <span>A</span>
         </div>
         <ReactCSSTransitionGroup transitionName="menu" transitionEnterTimeout={500} transitionLeaveTimeout={100}>
-          <Menu active={this.state.menuActive} />
+          <Menu active={this.state.active} />
         </ReactCSSTransitionGroup>
       </div>
     </div>
