@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import '../styles/menu.css'
 
-class Menu extends Component {
+export default class Menu extends Component {
   render() {
     if ( this.props.active ) {
       return <div className="account-menu">
@@ -15,5 +15,3 @@ class Menu extends Component {
     }
   }
 }
-
-export default Menu
