@@ -2,9 +2,10 @@ import React, { Component } from 'react'
 import Menu from './Menu'
 import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
 
-class AccountMenuDropdown extends Component {
-  constructor(props) {
-    super(props)
+export default class AccountMenuDropdown extends Component {
+  constructor( props ) {
+
+    super( props )
     this.state = {
       menuActive: false
     };
@@ -31,5 +32,3 @@ class AccountMenuDropdown extends Component {
     )
   }
 }
-
-export default AccountMenuDropdown
