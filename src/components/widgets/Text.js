@@ -4,7 +4,7 @@ import Header from './Header'
 
 class Text extends Component {
   render() {
-    const { title, size, x, y, message } = this.props
+    const { title, x, y, message } = this.props
     const positionStyle = { top: x, left: y }
 
     return (
