@@ -4,9 +4,10 @@ import { Provider } from 'react-redux'
 import { createStore } from 'redux'
 import { Router, Route, browserHistory } from 'react-router'
 
-import App from './components/App'
-import Dashboard from './components/Dashboard'
+import Landing from './components/landing/Landing'
+import Dashboard from './components/dashboard/Dashboard'
 import reducer from './reducers'
+
 import './styles/index.css'
 
 const initialState = {}
@@ -18,10 +19,10 @@ const store = createStore(
 )
 
 ReactDOM.render((
-  <Provider store={store}>
-    <Router history={browserHistory}>
-      <Route path='/' component={App} />
-      <Route path='dashboard' component={Dashboard} />
+  <Provider store={ store }>
+    <Router history={ browserHistory }>
+      <Route path='/' component={ Landing } />
+      <Route path='dashboard' component={ Dashboard } />
     </Router>
   </Provider>
 ), document.getElementById('root'))
