@@ -5,7 +5,7 @@ import Header from './Header'
 
 class Image extends Component {
   render() {
-    const { title, size, x, y, path, reload } = this.props
+    const { title, x, y, path } = this.props
     const positionStyle = { top: x, left: y }
 
     return (
