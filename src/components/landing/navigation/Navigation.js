@@ -49,28 +49,28 @@ const Button = React.createClass({
   },
 
   toggleMenu (event) {
-    this.setState({isOpen: !this.state.isOpen})
+    this.setState({ isOpen: !this.state.isOpen })
   },
 
   onClose () {
-    this.setState({isOpen: false})
+    this.setState({ isOpen: false })
   },
 
   componentDidMount () {
-    document.body.addEventListener('click', this.onClose)
+    document.body.addEventListener( 'click', this.onClose )
   },
 
   componentWillUnmount () {
-    document.body.removeEventListener('click', this.onClose)
+    document.body.removeEventListener( 'click', this.onClose )
   },
 
   render () {
     return <div>
-      <a onClick={this.toggleMenu} href='#'>
+      <a onClick={ this.toggleMenu } href='#'>
         More
         <div className='more-triangle' />
       </a>
-      <Menu isOpen={this.state.isOpen} />
+      <Menu isOpen={ this.state.isOpen } />
     </div>
   }
 })

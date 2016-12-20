@@ -11,7 +11,7 @@ class Dashboard extends Component {
       <div className="dashboard-landing">
         <Navigation />
         <SecondaryNavigation />
-        <Body widgets={this.props.widgets} />
+        <Body widgets={ this.props.widgets } />
       </div>
     )
   }
