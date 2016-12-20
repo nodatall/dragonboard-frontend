@@ -49,7 +49,6 @@ const Button = React.createClass({
   },
 
   toggleMenu (event) {
-    // event.stopPropagation()
     this.setState({isOpen: !this.state.isOpen})
   },
 
@@ -67,8 +66,9 @@ const Button = React.createClass({
 
   render () {
     return <div>
-      <a onClick={this.toggleMenu} href='#'>More
-          <div className='more-triangle' />
+      <a onClick={this.toggleMenu} href='#'>
+        More
+        <div className='more-triangle' />
       </a>
       <Menu isOpen={this.state.isOpen} />
     </div>

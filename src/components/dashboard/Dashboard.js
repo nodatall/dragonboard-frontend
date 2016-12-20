@@ -7,7 +7,6 @@ import Body from './Body'
 
 class Dashboard extends Component {
   render() {
-
     return (
       <div className="dashboard-landing">
         <Navigation />
