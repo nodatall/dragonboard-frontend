@@ -15,7 +15,9 @@ export default class DetailsPageMain extends Component {
         <div className="page-main">
           <div className="header">
             <h1 className="page-main__title">Account details</h1>
-            <h2 className="page-main__subtitle">Manage your personal details</h2>
+            <h2 className="page-main__subtitle">
+              Manage your personal details
+            </h2>
           </div>
           <EditAccountDetails />
           <ChangePassword />

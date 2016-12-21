@@ -9,7 +9,7 @@ export default class EditCompany extends Component {
   render() {
     return (
       <div className="edit-company">
-        <FormField label='Company' value='Learners Guild' />
+        <FormField label="Company" value="Learners Guild" />
         <Button>Change company details</Button>
       </div>
     )

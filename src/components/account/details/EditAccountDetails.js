@@ -14,11 +14,11 @@ export default class EditAccountDetails extends Component {
         </div>
         <div className="edit-account-form">
           <div className="edit-account-form__name">
-            <FormField label='First name' value='Ana' />
-            <FormField label='Last name' value='Sauceda' />
+            <FormField label="First name" value="Ana" />
+            <FormField label="Last name" value="Sauceda" />
           </div>
           <div className="edit-account-form__email">
-            <FormField label='Email' value='ana@example.com' />
+            <FormField label="Email" value="ana@example.com" />
           </div>
         </div>
       </div>

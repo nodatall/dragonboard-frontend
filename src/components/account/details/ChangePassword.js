@@ -9,7 +9,7 @@ export default class EditAccountDetails extends Component {
   render() {
     return (
       <div className="change-password">
-        <FormField label='Password' value='******' />
+        <FormField label="Password" value="******" />
         <Button>Change password</Button>
       </div>
     )
