@@ -9,6 +9,7 @@ const dummyText = {
     two: { text: 'blarg', type: 'Alert' },
     three: { text: 'blarg', type: 'Info' },
     four: { text: 'blarg', type: 'Text' }
+  }
 }
 
 export default dummyText
