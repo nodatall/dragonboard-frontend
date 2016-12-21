@@ -8,7 +8,9 @@ export default class SideMenu extends Component {
       <div className="side-menu">
         <div className="side-menu-list">
           <div className="side-menu-list-item active">Account</div>
-          <div className="side-menu-list-item"><a href="#">Dashboard</a></div>
+          <div className="side-menu-list-item">
+            <a href="#">Dashboard</a>
+          </div>
         </div>
       </div>
     )

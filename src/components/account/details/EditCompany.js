@@ -10,7 +10,7 @@ export default class EditCompany extends Component {
     return (
       <div className="edit-company">
         <FormField label='Company' value='Learners Guild' />
-        <Button name="Change company details"/>
+        <Button>Change company details</Button>
       </div>
     )
   }

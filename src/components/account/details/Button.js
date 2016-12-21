@@ -6,7 +6,7 @@ export default class Button extends Component {
   render() {
     return (
       <div className="button">
-        <span>{ this.props.name }</span>
+        <span>{ this.props.children }</span>
       </div>
     )
   }

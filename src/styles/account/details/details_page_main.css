@@ -1,9 +1,3 @@
-.top-border {
-  position: relative;
-  background-color: #585d5f;
-  min-height: 48px;
-}
-
 .page-main {
   position: relative;
   max-width: 860px;

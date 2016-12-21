@@ -12,7 +12,6 @@ export default class AccountDetailsPage extends Component {
       <div className="account-details-page">
         <div className="navigation">
           <Navigation />
-          <div className="top-border" />
         </div>
         <SideMenu />
         <DetailsPageMain />
