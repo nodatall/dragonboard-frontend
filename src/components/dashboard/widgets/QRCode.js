@@ -14,8 +14,7 @@ export default class QRCode extends Component {
       <article>
         <div
           className="widget widget-width-1 widget-height-1"
-          style={ positionStyle }
-        >
+          style={ positionStyle }>
           <Header title={ title }/>
           <div className="widget-body flex-center">
             <QRCodeImage url={ url }/>

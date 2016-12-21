@@ -19,8 +19,7 @@ export default class Body extends Component {
             <Quotation
               quotation="We installed Dragonboard, sales are now up by 15%"
               url="images/how-to-draw-john-adams-john-adams_1_000000016809_5.png"
-              name="John Adamos, CEO, Adam Apples"
-            />
+              name="John Adamos, CEO, Adam Apples" />
           </div>
         </section>
         <Icons />
