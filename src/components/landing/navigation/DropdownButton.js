@@ -14,11 +14,11 @@ export default class HomeNavMenuDropdownButton extends Component {
   }
 
   toggleMenu( event ) {
-    this.setState( { isOpen: !this.state.isOpen } )
+    this.setState({ isOpen: !this.state.isOpen })
   }
 
   onClose() {
-    this.setState( { isOpen: false } )
+    this.setState({ isOpen: false })
   }
 
   componentDidMount() {
