@@ -4,6 +4,10 @@
   "private": true,
   "devDependencies": {
     "enzyme": "^2.6.0",
+    "eslint": "^3.12.2",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-react": "^6.8.0",
+    "eslint-watch": "^2.1.14",
     "react-addons-test-utils": "^15.4.1",
     "react-scripts": "0.7.0"
   },
@@ -24,6 +28,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint:fix": "eslint src --fix",
+    "lint:watch": "node node_modules/eslint-watch/bin/esw -w --fix"
   }
 }

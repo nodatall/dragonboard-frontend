@@ -18,11 +18,11 @@ const store = createStore(
   window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
 )
 
-ReactDOM.render((
+ReactDOM.render( (
   <Provider store={ store }>
     <Router history={ browserHistory }>
-      <Route path='/' component={ Landing } />
-      <Route path='dashboard' component={ Dashboard } />
+      <Route path="/" component={ Landing } />
+      <Route path="dashboard" component={ Dashboard } />
     </Router>
   </Provider>
-), document.getElementById('root'))
+), document.getElementById( 'root' ) )

@@ -14,8 +14,8 @@ const buildWidgets = widgets =>
       'Image': <Image { ...widget } key={ widget.title } />,
       'QRCode': <QRCode { ...widget } key={ widget.title } />,
       'Clock': <Clock { ...widget } key={ widget.title } />
-    } [ widget.type ]
-  ))
+    }[ widget.type ]
+  ) )
 
 export default class Body extends Component {
   render() {

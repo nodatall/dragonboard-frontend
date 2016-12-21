@@ -11,7 +11,7 @@ import '../../styles/landing/button.css'
 export default class Landing extends Component {
   render() {
     return (
-      <div className='landing-page-wrapper'>
+      <div className="landing-page-wrapper">
         <Navigation />
         <Body />
         <Footer />

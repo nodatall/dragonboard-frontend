@@ -11,7 +11,7 @@ const updateWidget = ( state, action, type, updater ) => {
 
   return [
     ...state.slice( 0, index ),
-       updater( state[ index ], action ),
+    updater( state[ index ], action ),
     ...state.slice( index + 1 )
   ]
 }

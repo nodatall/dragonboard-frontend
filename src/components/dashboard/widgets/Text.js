@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 import Header from './Header'
 
-import "../../../styles/dashboard/widget/widget.css"
+import '../../../styles/dashboard/widget/widget.css'
 
 export default class Text extends Component {
   render() {
@@ -11,7 +11,9 @@ export default class Text extends Component {
 
     return (
       <article>
-        <div className="widget widget-width-1 widget-height-1" style={ positionStyle }>
+        <div
+          className="widget widget-width-1 widget-height-1"
+          style={ positionStyle }>
           <Header title={ title }/>
           <div className="widget-body body-text">
             { message.one.text }

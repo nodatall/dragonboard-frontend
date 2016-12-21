@@ -9,29 +9,32 @@ import '../../../styles/landing/navigation/menu.css'
 export default class Navigation extends Component {
   render() {
     return (
-      <nav className='landing-navigation clearfix'>
-        <div className='navigation-container'>
-          <div className='landing-navigation-left'>
-            <a className='logo' href='#'>
-              <div className='logo-green-square'>
+      <nav className="landing-navigation clearfix">
+        <div className="navigation-container">
+          <div className="landing-navigation-left">
+            <a className="logo" href="#">
+              <div className="logo-green-square">
                 <div>D</div>
               </div>
-              <img src='/images/logo.svg' role='presentation' />
+              <img src="/images/logo.svg" alt="presentation" />
             </a>
           </div>
 
-          <div className='landing-navigation-right'>
-            <div className='landing-navigation-menu'>
-              <a className='landing-navigation-grey' href='#'>product</a>
-              <a className='landing-navigation-grey' href='#'>PRICING</a>
-              <a className='landing-navigation-grey' href='#'>BLOG</a>
-              <div className='navigation-dropdown'>
+          <div className="landing-navigation-right">
+            <div className="landing-navigation-menu">
+              <a className="landing-navigation-grey" href="#">product</a>
+              <a className="landing-navigation-grey" href="#">PRICING</a>
+              <a className="landing-navigation-grey" href="#">BLOG</a>
+              <div className="navigation-dropdown">
                 <Button />
               </div>
-              <a className='login-navigation' href='#'>LOGIN</a>
-              <a className='demonstration-button' href='#'>BOOK A DEMO</a>
-              <input className='trial-input' type='text' placeholder='Email address' />
-              <a className='navigation-trial-button' href='#'>Free Trial</a>
+              <a className="login-navigation" href="#">LOGIN</a>
+              <a className="demonstration-button" href="#">BOOK A DEMO</a>
+              <input
+                className="trial-input"
+                type="text"
+                placeholder="Email address" />
+              <a className="navigation-trial-button" href="#">Free Trial</a>
             </div>
           </div>
           <Hamburger />
@@ -42,33 +45,33 @@ export default class Navigation extends Component {
 }
 
 const Button = React.createClass({
-  getInitialState () {
+  getInitialState() {
     return {
       isOpen: false
     }
   },
 
-  toggleMenu (event) {
+  toggleMenu( event ) {
     this.setState({ isOpen: !this.state.isOpen })
   },
 
-  onClose () {
+  onClose() {
     this.setState({ isOpen: false })
   },
 
-  componentDidMount () {
+  componentDidMount() {
     document.body.addEventListener( 'click', this.onClose )
   },
 
-  componentWillUnmount () {
+  componentWillUnmount() {
     document.body.removeEventListener( 'click', this.onClose )
   },
 
-  render () {
+  render() {
     return <div>
-      <a onClick={ this.toggleMenu } href='#'>
+      <a onClick={ this.toggleMenu } href="#">
         More
-        <div className='more-triangle' />
+        <div className="more-triangle" />
       </a>
       <Menu isOpen={ this.state.isOpen } />
     </div>
