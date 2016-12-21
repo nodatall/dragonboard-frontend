@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 import '../../../styles/account/details/side_menu.css'
 
-class SideMenu extends Component {
+export default class SideMenu extends Component {
   render() {
     return (
       <div className="side-menu">
@@ -14,5 +14,3 @@ class SideMenu extends Component {
     )
   }
 }
-
-export default SideMenu

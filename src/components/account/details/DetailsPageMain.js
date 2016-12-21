@@ -8,7 +8,7 @@ import CancelAccount from './CancelAccount'
 
 import '../../../styles/account/details/details_page_main.css'
 
-class DetailsPageMain extends Component {
+export default class DetailsPageMain extends Component {
   render() {
     return (
       <div>
@@ -27,5 +27,3 @@ class DetailsPageMain extends Component {
     )
   }
 }
-
-export default DetailsPageMain

@@ -1,16 +1,17 @@
 import React, { Component } from 'react'
-import DashNav from '../../DashNav'
+
+import Navigation from '../../dashboard/navigation/Navigation'
 import SideMenu from './SideMenu'
 import DetailsPageMain from './DetailsPageMain'
 
 import '../../../styles/account/details/account_details_page.css'
 
-class AccountDetailsPage extends Component {
+export default class AccountDetailsPage extends Component {
   render() {
     return (
       <div className="account-details-page">
         <div className="navigation">
-          <DashNav />
+          <Navigation />
           <div className="top-border" />
         </div>
         <SideMenu />
@@ -19,5 +20,3 @@ class AccountDetailsPage extends Component {
     )
   }
 }
-
-export default AccountDetailsPage

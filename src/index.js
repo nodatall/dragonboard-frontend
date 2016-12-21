@@ -24,7 +24,7 @@ ReactDOM.render( (
     <Router history={ browserHistory }>
       <Route path='/' component={ Landing } />
       <Route path='dashboard' component={ Dashboard } />
-      <Route path='/account' component={ AccountDetailsPage } />
+      <Route path='account' component={ AccountDetailsPage } />
     </Router>
   </Provider>
 ), document.getElementById( 'root' ) )
