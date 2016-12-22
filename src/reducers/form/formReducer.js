@@ -1,10 +1,9 @@
-export const formFieldUpdate = ( state, action ) => {
-  const { name, value } = action
-
-  const newFieldValue = Object.assign( {}, state )
-  newFieldValue.data = {
-    [name]: value
-  }
-
-  return newFieldValue
+const formFieldUpdate = ( state, action ) => {
+  return Object.assign({}, state, {
+    values: Object.assign({}, state.values, {
+      [ action.name ]: action.value
+    })
+  })
 }
+
+export default formFieldUpdate

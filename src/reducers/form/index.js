@@ -1,15 +1,8 @@
 import { FORM_FIELD_UPDATE, FORM_RESET } from '../../actions/form/constants'
+import formFieldUpdate from './formReducer'
 
 const initialState = {
   values: {}
-}
-
-const formFieldUpdate = ( state, action ) => {
-  return Object.assign({}, state, {
-    values: Object.assign({}, state.values, {
-      [action.name]: action.value
-    })
-  })
 }
 
 const formReducer = ( state = initialState, action ) => {
