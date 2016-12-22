@@ -8,7 +8,7 @@ export default class Menu extends Component {
       return <div className="account-menu">
           <div className="account-menu-list">
             <div className="account-menu-list-item">
-              <a href="#">Account</a>
+              <a href="/account">Account</a>
             </div>
             <div className="account-menu-list-item">
               <a href="#">Logout</a>

@@ -1,0 +1,6 @@
+.navigation {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  border-bottom: solid 48px #585d5f;
+}
