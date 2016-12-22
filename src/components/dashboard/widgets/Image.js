@@ -1,9 +1,9 @@
-import React, { Component } from 'react'
+import React, { Component } from "react"
 
-import Header from './Header'
+import Header from "./Header"
 
-import '../../../styles/dashboard/widget/widget.css'
-import '../../../styles/dashboard/widget/image.css'
+import "../../../styles/dashboard/widget/widget.css"
+import "../../../styles/dashboard/widget/image.css"
 
 export default class Image extends Component {
   render() {

@@ -1,10 +1,10 @@
-import React, { Component } from 'react'
+import React, { Component } from "react"
 
-import Hamburger from './Hamburger'
-import DropdownButton from './DropdownButton'
+import Hamburger from "./Hamburger"
+import DropdownButton from "./DropdownButton"
 
-import '../../../styles/landing/navigation/navigation.css'
-import '../../../styles/landing/navigation/menu.css'
+import "../../../styles/landing/navigation/navigation.css"
+import "../../../styles/landing/navigation/menu.css"
 
 export default class Navigation extends Component {
   render() {

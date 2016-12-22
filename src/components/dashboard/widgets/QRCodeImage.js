@@ -1,7 +1,7 @@
-import React, { Component } from 'react'
-import qrCodeGenerator from 'qrcode-npm'
+import React, { Component } from "react"
+import qrCodeGenerator from "qrcode-npm"
 
-import '../../../styles/dashboard/widget/widget.css'
+import "../../../styles/dashboard/widget/widget.css"
 
 export default class QRCodeImage extends Component {
   static defaultProps = {
@@ -10,14 +10,14 @@ export default class QRCodeImage extends Component {
   }
 
   qrSource() {
-    const qr = qrCodeGenerator.qrcode( 4, 'M' )
+    const qr = qrCodeGenerator.qrcode( 4, "M" )
     qr.addData( this.props.url )
     qr.make()
 
     const imageTag = qr.createImgTag( 4 )
     return imageTag
-      .replace( '" width="164" height="164"/>', '' )
-      .replace( '<img src="', '' )
+      .replace( "\" width=\"164\" height=\"164\"/>", "" )
+      .replace( "<img src=\"", "" )
   }
 
   render() {

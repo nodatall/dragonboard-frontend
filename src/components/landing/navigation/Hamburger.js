@@ -1,6 +1,6 @@
-import React, { Component } from 'react'
+import React, { Component } from "react"
 
-import '../../../styles/landing/navigation/hamburger.css'
+import "../../../styles/landing/navigation/hamburger.css"
 
 export default class Hamburger extends Component {
   render() {

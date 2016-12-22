@@ -1,9 +1,9 @@
-import React, { Component } from 'react'
+import React, { Component } from "react"
 
-import QRCodeImage from './QRCodeImage'
-import Header from './Header'
+import QRCodeImage from "./QRCodeImage"
+import Header from "./Header"
 
-import '../../../styles/dashboard/widget/widget.css'
+import "../../../styles/dashboard/widget/widget.css"
 
 export default class QRCode extends Component {
   render() {

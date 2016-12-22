@@ -1,7 +1,7 @@
-import React, { Component } from 'react'
-import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
+import React, { Component } from "react"
+import ReactCSSTransitionGroup from "react-addons-css-transition-group"
 
-import Menu from './Menu'
+import Menu from "./Menu"
 
 export default class AccountMenuDropdown extends Component {
   constructor( props ) {

@@ -1,6 +1,6 @@
-import React, { Component } from 'react'
+import React, { Component } from "react"
 
-import '../../../styles/account/details/button.css'
+import "../../../styles/account/details/button.css"
 
 export default class Button extends Component {
   render() {

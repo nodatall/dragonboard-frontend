@@ -1,10 +1,10 @@
-import React, { Component } from 'react'
+import React, { Component } from "react"
 
-import Navigation from '../../dashboard/navigation/Navigation'
-import SideMenu from './SideMenu'
-import DetailsPageMain from './DetailsPageMain'
+import Navigation from "../../dashboard/navigation/Navigation"
+import SideMenu from "./SideMenu"
+import DetailsPageMain from "./DetailsPageMain"
 
-import '../../../styles/account/details/account_details_page.css'
+import "../../../styles/account/details/account_details_page.css"
 
 export default class AccountDetailsPage extends Component {
   render() {

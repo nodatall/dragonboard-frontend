@@ -1,6 +1,6 @@
-import React, { Component } from 'react'
+import React, { Component } from "react"
 
-import '../../styles/landing/overlay.css'
+import "../../styles/landing/overlay.css"
 
 export default class Overlay extends Component {
   render() {

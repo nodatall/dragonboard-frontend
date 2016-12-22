@@ -1,8 +1,8 @@
-import React, { Component } from 'react'
+import React, { Component } from "react"
 
-import AccountMenuDropdown from './AccountMenuDropdown'
+import AccountMenuDropdown from "./AccountMenuDropdown"
 
-import '../../../styles/dashboard/navigation/navigation.css'
+import "../../../styles/dashboard/navigation/navigation.css"
 
 export default class Navigation extends Component {
   render() {

@@ -1,6 +1,6 @@
-import { combineReducers } from 'redux'
+import { combineReducers } from "redux"
 
-import widgets from './widgets'
+import widgets from "./widgets"
 
 const reducer = combineReducers({
   widgets

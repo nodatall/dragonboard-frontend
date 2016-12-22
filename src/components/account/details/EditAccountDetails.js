@@ -1,9 +1,9 @@
-import React, { Component } from 'react'
+import React, { Component } from "react"
 
-import UpdateToggle from './UpdateToggle'
-import FormField from './FormField'
+import UpdateToggle from "./UpdateToggle"
+import FormField from "./FormField"
 
-import '../../../styles/account/details/edit_account_details.css'
+import "../../../styles/account/details/edit_account_details.css"
 
 export default class EditAccountDetails extends Component {
   render() {

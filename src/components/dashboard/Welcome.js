@@ -1,6 +1,6 @@
-import React, { Component } from 'react'
+import React, { Component } from "react"
 
-import '../../styles/dashboard/welcome.css'
+import "../../styles/dashboard/welcome.css"
 
 export default class Welcome extends Component {
   render() {

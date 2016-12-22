@@ -1,6 +1,6 @@
-import React, { Component } from 'react'
+import React, { Component } from "react"
 
-import '../../../styles/account/details/cancel_account.css'
+import "../../../styles/account/details/cancel_account.css"
 
 export default class CancelAccount extends Component {
   render() {

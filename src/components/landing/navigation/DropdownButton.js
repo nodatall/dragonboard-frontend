@@ -1,8 +1,8 @@
-import React, { Component } from 'react'
+import React, { Component } from "react"
 
-import HomeNavDropdownMenu from './Menu'
+import HomeNavDropdownMenu from "./Menu"
 
-import '../../../styles/landing/navigation/dropdown_button.css'
+import "../../../styles/landing/navigation/dropdown_button.css"
 
 export default class HomeNavMenuDropdownButton extends Component {
   constructor( props ) {
@@ -22,11 +22,11 @@ export default class HomeNavMenuDropdownButton extends Component {
   }
 
   componentDidMount() {
-    document.body.addEventListener( 'click', this.onClose.bind( this ) )
+    document.body.addEventListener( "click", this.onClose.bind( this ) )
   }
 
   componentWillUnmount() {
-    document.body.removeEventListener( 'click', this.onClose.bind( this ) )
+    document.body.removeEventListener( "click", this.onClose.bind( this ) )
   }
 
   render() {
