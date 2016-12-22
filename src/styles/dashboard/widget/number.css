@@ -1,0 +1,52 @@
+.stat-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.statistic {
+  font-size: 60px;
+}
+
+.goal-progress-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.progress {
+  color: #3fb4f9;
+  font-size: 40px;
+}
+
+.complete .progress {
+  color: #80b636;
+}
+
+.goal {
+  border-radius: 2px;
+  background-color: #8b9092;
+  color: #2a2a2a;
+  font-size: 18px;
+  padding: 4px;
+}
+
+.complete .goal {
+  background-color: #80b636;
+}
+
+.progress-bar {
+  height: 10px;
+}
+
+.progress-bar > span {
+  display: block;
+  height: 100%;
+  max-width: 100%;
+  background-color: #3fb4f9;
+}
+
+.complete .progress-bar > span {
+  background-color: #80b636;
+}

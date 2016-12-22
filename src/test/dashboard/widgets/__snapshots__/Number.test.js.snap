@@ -1,0 +1,50 @@
+exports[`Number widget component renders without crashing 1`] = `
+<article>
+  <div
+    className="widget widget-width-1 widget-height-1"
+    style={
+      Object {
+        "left": "500px",
+        "top": "10px",
+      }
+    }>
+    <header>
+      <span>
+        <label
+          className="header-text">
+           
+          Number
+           
+        </label>
+      </span>
+    </header>
+    <div
+      className="widget-body stat-wrapper">
+      <div
+        className="statistic">
+        151
+      </div>
+      <div
+        className="goal-progress-wrapper">
+        <div
+          className="progress">
+          75.50%
+        </div>
+        <div
+          className="goal">
+          200
+        </div>
+      </div>
+      <div
+        className="progress-bar">
+        <span
+          style={
+            Object {
+              "width": "75.50%",
+            }
+          } />
+      </div>
+    </div>
+  </div>
+</article>
+`;

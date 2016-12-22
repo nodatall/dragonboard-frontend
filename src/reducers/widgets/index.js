@@ -2,6 +2,8 @@ import { CLOCK_TICK } from '../../actions/widgets'
 import clockTicked from './clockReducer'
 
 import dummyClock from './dummy-data/dashboard-tools/clock'
+import dummyNumber from './dummy-data/dashboard-tools/number'
+
 
 const updateWidget = ( state, action, type, updater ) => {
 
@@ -16,7 +18,7 @@ const updateWidget = ( state, action, type, updater ) => {
   ]
 }
 
-const widgetReducer = ( state = [dummyClock], action ) => {
+const widgetReducer = ( state = [ dummyClock, dummyNumber ], action ) => {
   switch( action.type ) {
     case CLOCK_TICK:
       return updateWidget( state, action, 'Clock', clockTicked )
