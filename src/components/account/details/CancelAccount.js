@@ -1,6 +1,6 @@
-import React, { Component } from "react"
+import React, { Component } from 'react'
 
-import "../../../styles/account/details/cancel_account.css"
+import '../../../styles/account/details/cancel_account.css'
 
 export default class CancelAccount extends Component {
   render() {
@@ -10,7 +10,7 @@ export default class CancelAccount extends Component {
           Cancellation
         </div>
         <div className="cancel-words">
-          <a href="">Close this account</a>.
+          <a href="#">Close this account</a>.
           This will delete all your settings and data.
         </div>
       </div>

@@ -1,12 +1,12 @@
-import React, { Component } from "react"
-import { connect } from "react-redux"
-import moment from "moment"
+import React, { Component } from 'react'
+import { connect } from 'react-redux'
+import moment from 'moment'
 
-import { clockTick } from "../../../actions/widgets"
-import Header from "./Header"
+import { clockTick } from '../../../actions/widgets'
+import Header from './Header'
 
-import "../../../styles/dashboard/widget/widget.css"
-import "../../../styles/dashboard/widget/clock.css"
+import '../../../styles/dashboard/widget/widget.css'
+import '../../../styles/dashboard/widget/clock.css'
 
 class Clock extends Component {
   componentWillMount() {

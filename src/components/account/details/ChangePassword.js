@@ -1,9 +1,9 @@
-import React, { Component } from "react"
+import React, { Component } from 'react'
 
-import Button from "./Button"
-import FormField from "./FormField"
+import Button from './Button'
+import FormField from './FormField'
 
-import "../../../styles/account/details/change_password.css"
+import '../../../styles/account/details/change_password.css'
 
 export default class EditAccountDetails extends Component {
   render() {

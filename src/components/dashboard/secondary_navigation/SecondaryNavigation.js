@@ -1,7 +1,7 @@
-import React, { Component } from "react"
+import React, { Component } from 'react'
 
-import "../../../styles/dashboard/secondary_navigation/secondary_navigation.css"
-import "../../../../public/arrow.svg"
+import '../../../styles/dashboard/secondary_navigation/secondary_navigation.css'
+import '../../../../public/arrow.svg'
 
 export default class SecondaryNavigation extends Component {
   render() {

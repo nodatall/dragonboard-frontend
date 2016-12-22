@@ -1,7 +1,7 @@
-import { CLOCK_TICK } from "../../actions/widgets"
-import clockTicked from "./clockReducer"
+import { CLOCK_TICK } from '../../actions/widgets'
+import clockTicked from './clockReducer'
 
-import dummyClock from "./dummy-data/dashboard-tools/clock"
+import dummyClock from './dummy-data/dashboard-tools/clock'
 
 const updateWidget = ( state, action, type, updater ) => {
 
@@ -19,7 +19,7 @@ const updateWidget = ( state, action, type, updater ) => {
 const widgetReducer = ( state = [dummyClock], action ) => {
   switch( action.type ) {
     case CLOCK_TICK:
-      return updateWidget( state, action, "Clock", clockTicked )
+      return updateWidget( state, action, 'Clock', clockTicked )
     default:
       return state
   }

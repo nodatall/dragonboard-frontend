@@ -1,12 +1,12 @@
-import React, { Component } from "react"
+import React, { Component } from 'react'
 
-import EditAccountDetails from "./EditAccountDetails"
-import ChangePassword from "./ChangePassword"
-import Subscribe from "./Subscribe"
-import EditCompany from "./EditCompany"
-import CancelAccount from "./CancelAccount"
+import EditAccountDetails from './EditAccountDetails'
+import ChangePassword from './ChangePassword'
+import Subscribe from './Subscribe'
+import EditCompany from './EditCompany'
+import CancelAccount from './CancelAccount'
 
-import "../../../styles/account/details/details_page_main.css"
+import '../../../styles/account/details/details_page_main.css'
 
 export default class DetailsPageMain extends Component {
   render() {

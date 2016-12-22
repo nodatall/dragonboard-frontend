@@ -1,9 +1,9 @@
-import React, { Component } from "react"
+import React, { Component } from 'react'
 
-import Button from "./Button"
-import FormField from "./FormField"
+import Button from './Button'
+import FormField from './FormField'
 
-import "../../../styles/account/details/edit_company.css"
+import '../../../styles/account/details/edit_company.css'
 
 export default class EditCompany extends Component {
   render() {

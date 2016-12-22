@@ -1,6 +1,6 @@
-import React, { Component } from "react"
+import React, { Component } from 'react'
 
-import "../../../styles/dashboard/widget/widget.css"
+import '../../../styles/dashboard/widget/widget.css'
 
 export default class Header extends Component {
   static propTypes = { title: React.PropTypes.string.isRequired }

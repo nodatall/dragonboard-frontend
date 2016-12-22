@@ -1,6 +1,6 @@
-import React, { Component } from "react"
+import React, { Component } from 'react'
 
-import "../../../styles/account/details/subscribe.css"
+import '../../../styles/account/details/subscribe.css'
 
 export default class Subscribe extends Component {
   render() {

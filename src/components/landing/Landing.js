@@ -1,12 +1,12 @@
-import React, { Component } from "react"
+import React, { Component } from 'react'
 
-import Body from "./Body"
-import Navigation from "./navigation/Navigation"
-import Footer from "./Footer"
+import Body from './Body'
+import Navigation from './navigation/Navigation'
+import Footer from './Footer'
 
-import "../../styles/landing/body.css"
-import "../../styles/landing/navigation/navigation.css"
-import "../../styles/landing/button.css"
+import '../../styles/landing/body.css'
+import '../../styles/landing/navigation/navigation.css'
+import '../../styles/landing/button.css'
 
 export default class Landing extends Component {
   render() {

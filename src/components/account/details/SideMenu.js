@@ -1,6 +1,6 @@
-import React, { Component } from "react"
+import React, { Component } from 'react'
 
-import "../../../styles/account/details/side_menu.css"
+import '../../../styles/account/details/side_menu.css'
 
 export default class SideMenu extends Component {
   render() {

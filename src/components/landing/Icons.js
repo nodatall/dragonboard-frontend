@@ -1,6 +1,6 @@
-import React, { Component } from "react"
+import React, { Component } from 'react'
 
-import "../../styles/landing/icons.css"
+import '../../styles/landing/icons.css'
 
 export default class Icons extends Component {
   render() {

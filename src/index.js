@@ -1,15 +1,15 @@
-import React from "react"
-import ReactDOM from "react-dom"
-import { Provider } from "react-redux"
-import { createStore } from "redux"
-import { Router, Route, browserHistory } from "react-router"
+import React from 'react'
+import ReactDOM from 'react-dom'
+import { Provider } from 'react-redux'
+import { createStore } from 'redux'
+import { Router, Route, browserHistory } from 'react-router'
 
-import Landing from "./components/landing/Landing"
-import Dashboard from "./components/dashboard/Dashboard"
-import reducer from "./reducers"
-import AccountDetailsPage from "./components/account/details/AccountDetailsPage"
+import Landing from './components/landing/Landing'
+import Dashboard from './components/dashboard/Dashboard'
+import reducer from './reducers'
+import AccountDetailsPage from './components/account/details/AccountDetailsPage'
 
-import "./styles/index.css"
+import './styles/index.css'
 
 const initialState = {}
 
@@ -27,4 +27,4 @@ ReactDOM.render( (
       <Route path="account" component={ AccountDetailsPage } />
     </Router>
   </Provider>
-), document.getElementById( "root" ) )
+), document.getElementById( 'root' ) )

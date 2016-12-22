@@ -1,8 +1,8 @@
-import React, { Component } from "react"
+import React, { Component } from 'react'
 
-import Header from "./Header"
+import Header from './Header'
 
-import "../../../styles/dashboard/widget/widget.css"
+import '../../../styles/dashboard/widget/widget.css'
 
 export default class Text extends Component {
   render() {

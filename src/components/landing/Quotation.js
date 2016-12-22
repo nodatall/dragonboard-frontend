@@ -1,6 +1,6 @@
-import React, { Component } from "react"
+import React, { Component } from 'react'
 
-import "../../styles/landing/quotation.css"
+import '../../styles/landing/quotation.css'
 
 export default class Quotation extends Component {
   render() {

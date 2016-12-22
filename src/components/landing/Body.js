@@ -1,10 +1,10 @@
-import React, { Component } from "react"
+import React, { Component } from 'react'
 
-import Overlay from "./Overlay"
-import Quotation from "./Quotation"
-import Icons from "./Icons"
+import Overlay from './Overlay'
+import Quotation from './Quotation'
+import Icons from './Icons'
 
-import "../../styles/landing/body.css"
+import '../../styles/landing/body.css'
 
 export default class Body extends Component {
   render() {

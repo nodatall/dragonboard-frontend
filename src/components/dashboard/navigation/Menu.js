@@ -1,6 +1,6 @@
-import React, { Component } from "react"
+import React, { Component } from 'react'
 
-import "../../../styles/dashboard/navigation/menu.css"
+import '../../../styles/dashboard/navigation/menu.css'
 
 export default class Menu extends Component {
   render() {

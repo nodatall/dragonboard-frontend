@@ -1,6 +1,6 @@
-import React, { Component } from "react"
+import React, { Component } from 'react'
 
-import "../../../styles/account/details/form_field.css"
+import '../../../styles/account/details/form_field.css'
 
 export default class EditAccountDetails extends Component {
   render() {
